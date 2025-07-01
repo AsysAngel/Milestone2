@@ -1,5 +1,21 @@
 $(document).ready(function() {
 
+     const mockData = {
+        "items": [
+            {
+                "id": "Wfan6L9RGgYC",
+                "volumeInfo": {
+                    "title": "The Modern Web",
+                    "subtitle": "Multi-device Web Development with HTML5, CSS3, and JavaScript",
+                    "authors": ["Peter Gasston"],
+                    "imageLinks": {
+                        "smallThumbnail": "http://books.google.com/books/content?id=Wfan6L9RGgYC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api"
+                    }
+                }
+            },
+        ]
+    };
+    
     // Check if there's a query parameter
     const urlParams = new URLSearchParams(window.location.search);
     const query = urlParams.get('q');
