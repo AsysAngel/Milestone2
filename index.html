@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Page</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="main-nav">
+        <ul>
+            <li><a href="bookshelf.html">My Bookshelf</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h1>Book Search</h1>
+        <form action="index.html" method="GET">
+            <input type="text" name="q" placeholder="Enter search terms" value="">
+            <button type="submit">Search</button>
+        </form>
+        <div id="results"></div>
+        <div id="pagination"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
